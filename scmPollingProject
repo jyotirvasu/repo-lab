@@ -22,7 +22,7 @@ pipeline {
                         sleep 10
                     }
                 }
-		stage('Stage3') {
+		stage('Stage4') {
                     steps {
                         echo "Stage4 executing"
                         sleep 10
