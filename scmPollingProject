@@ -28,6 +28,12 @@ pipeline {
                         sleep 10
                     }
                 }
+		stage('Stage5') {
+                    steps {
+                        echo "Stage5 executing"
+                        sleep 10
+                    }
+                }
             }
         }
     }
